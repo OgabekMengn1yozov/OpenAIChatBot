@@ -1,0 +1,27 @@
+{
+  "name": "openaichatbot",
+  "version": "1.0.0",
+  "description": "\"# OpenAIChatBot\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bot.js",
+    "dev": "nodemon ./bot.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OgabekMengn1yozov/OpenAIChatBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OgabekMengn1yozov/OpenAIChatBot/issues"
+  },
+  "homepage": "https://github.com/OgabekMengn1yozov/OpenAIChatBot#readme",
+  "dependencies": {
+    "chatgpt": "^3.5.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20"
+  }
+}
